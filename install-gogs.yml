@@ -1,6 +1,7 @@
 - name: Install GOGS 
   hosts: all
-
+  vars:
+    gogs_user_home: /base/git
   roles:
     - geerlingguy.git
     - geerlingguy.gogs
