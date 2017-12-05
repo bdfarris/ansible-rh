@@ -1,0 +1,6 @@
+- name: Install GOGS 
+  hosts: all
+
+  roles:
+    - geerlingguy.git
+    - geerlingguy.gogs
